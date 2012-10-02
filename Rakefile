@@ -4,15 +4,17 @@
 require 'fileutils'
 require 'cucumber/rake/task'
 require 'launchy'
-#ENV['RESULT_DIR'] = File.dirname(__FILE__) + '/result'
+#ENV['RESULT_DIR'] = File.dirname(__FILE__) + '/report'
 #puts ENV['RESULT_DIR']
 
 Cucumber::Rake::Task.new(:features) do |t|
   #t.fork = false # You may get faster startup if you set this to false
   t.profile = ENV['app']
   #t.cucumber_opts = "-f pretty"
-  unless ENV['ftr'] == nil
-    t.cucumber_opts = "features/#{ENV['ftr']} -f html --out=report.html"
+  if  ENV['ftr'] == nil then
+    t.cucumber_opts = "features -f html --out=report/report.html"
+  else
+    t.cucumber_opts = "features/#{ENV['ftr']} -f html --out=report/report.html"
   end
 end
 

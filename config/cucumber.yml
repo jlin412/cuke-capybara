@@ -1,0 +1,6 @@
+#default:
+#html_report: -f html --out=report.html
+demo: APP_URL=http://www.google.com
+bitly: APP_URL=http://www.bitly.com
+
+

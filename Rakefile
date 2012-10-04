@@ -18,10 +18,14 @@ end
 
 task :cuke do |task|
 
-  unless File.exist? ENV['RESULT_DIR']
+  if File.exist? ENV['RESULT_DIR']
+    FileList["#{ENV['RESULT_DIR']}/*.html"].each {|x| File.delete(x)}
+  else
     FileUtils.mkdir("report")
   end
-  unless File.exist? ENV['JUNIT_DIR']
+  if File.exist? ENV['JUNIT_DIR'] then
+    FileList["#{ENV['JUNIT_DIR']}/*.xml"].each {|x| File.delete(x)}
+  else
     FileUtils.mkdir("junit")
   end
 

@@ -1,5 +1,5 @@
 Given /^I visit home page$/ do
-  visit(ENV[APP_URL])
+  visit(ENV['APP_URL'])
 end
 
 When /^I follow "([^"]*)"$/ do |text|

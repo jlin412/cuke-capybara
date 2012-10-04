@@ -2,7 +2,7 @@
 require 'cucumber/rake/task'
 require 'launchy'
 ENV['RESULT_DIR'] = File.dirname(__FILE__) + '/report'
-ENV['JUNIT_DIR'] = File.dirname(__FILE__) + '/report'
+ENV['JUNIT_DIR'] = File.dirname(__FILE__) + '/junit'
 #puts ENV['RESULT_DIR']
 
 Cucumber::Rake::Task.new(:features) do |t|

@@ -25,6 +25,6 @@ task :cuke do |task|
     FileUtils.mkdir("junit")
   end
 
-    Rake::Task[:features].execute
+    Rake::Task[:features].invoke
   Launchy.open("report/report.html")
 end

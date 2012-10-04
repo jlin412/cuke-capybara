@@ -51,24 +51,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="demo_steps.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="demo_steps.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/demo_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="14" selection-start="115" selection-end="115" vertical-scroll-proportion="0.039306358">
+            <state line="1" column="16" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rakefile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Rakefile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="26" selection-start="727" selection-end="727" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1349322562677" expanded="true" signature="577:811" placeholder="do ... end" />
-                <marker date="1349322562677" expanded="true" signature="590:662" placeholder="unless ... end" />
-                <marker date="1349322562677" expanded="true" signature="665:735" placeholder="unless ... end" />
-              </folding>
+            <state line="27" column="32" selection-start="768" selection-end="768" vertical-scroll-proportion="0.53063583">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -76,7 +72,7 @@
       <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="69" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0">
+            <state line="14" column="69" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -114,8 +110,8 @@
         <option value="$PROJECT_DIR$/features/bitmark_create.feature" />
         <option value="$PROJECT_DIR$/features/test.feature" />
         <option value="$PROJECT_DIR$/features/user_account.feature" />
-        <option value="$PROJECT_DIR$/Rakefile" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Rakefile" />
       </list>
     </option>
   </component>
@@ -585,20 +581,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rakefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="26" selection-start="727" selection-end="727" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1349322562677" expanded="true" signature="577:811" placeholder="do ... end" />
-            <marker date="1349322562677" expanded="true" signature="590:662" placeholder="unless ... end" />
-            <marker date="1349322562677" expanded="true" signature="665:735" placeholder="unless ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="69" selection-start="445" selection-end="445" vertical-scroll-proportion="0.0">
+        <state line="14" column="69" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -612,7 +597,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/demo_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="14" selection-start="115" selection-end="115" vertical-scroll-proportion="0.039306358">
+        <state line="1" column="16" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="32" selection-start="768" selection-end="768" vertical-scroll-proportion="0.53063583">
           <folding />
         </state>
       </provider>

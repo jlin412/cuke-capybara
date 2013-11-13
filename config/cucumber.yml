@@ -3,7 +3,7 @@ html_report: -f html --out=report.html
 demo: APP_URL=http://www.google.com
 bitly: APP_URL=http://www.bitly.com
 cl: --strict -f junit --out junit
-
+intent: APP_URL=http://localhost:3000
+axial: APP_URL=http://www.axial.net
 cl-demo: -p cl -p demo
-
 

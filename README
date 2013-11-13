@@ -1,0 +1,17 @@
+In order to install the Intent Pizza application:
+
+1. Make sure that you have Ruby installed
+2. Run 'gem install bundler'
+3. From the root of the application directory run 'bundle install'
+4. Run 'rake db:migrate' to set up the database
+5. Run 'rails s' to start the server 
+   (you'll be able to view the app at http://localhost:3000)
+6. Run 'bundle exec cucumber' to run your cucumber tests (after writing them)
+
+The goal is to use Cucumber to test the functional flow through the
+application. In particular, we want to test the options around creating a 
+user, logging in, and ordering some pizzas with various toppings. The app 
+itself should be fairly self explanatory. Feel free to email us
+(qa@intentmedia.com) with any questions about it.
+
+Cucumber documentation: https://github.com/cucumber/cucumber/wiki
